@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intest calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1>intrest calculator</h1>
+        <p>
+            <label for="">principle amount</label><br>
+            <input type="text" id="pamt" autofocus> <span>&#8377;</span>
+        </p>
+        <p>
+            <label for="">rate of intrest</label><br>
+            <input type="text" id="roi"><span>%</span>
+        </p>
+        <p>
+            <label for="">time</label><br>
+            <input type="text" id="time"><span>Year(s)</span><br>
+        </p>
+        <button onclick="getAmount()">get amount</button>
+        <p><output id="interest" ></output><br>
+            <output id="totAmt" ></output></p>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
